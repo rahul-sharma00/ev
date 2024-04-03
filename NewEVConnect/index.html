@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="banner">
+            <video autoplay muted loop id="myVideo">
+                <source src="resources/banner.mp4" type="video/mp4">
+            </video>
+            <nav>
+                <div class="logo">
+                    <img src="resources/logo.png">
+                </div>
+                <div class="nav-items">
+                    <a href="index.html" class="active">Home</a>
+                    <a href="#" onclick="openServices()" id="ser">Services</a>
+                    <div id="services">
+                        <a href="#"><select name="E-vehicles" id="catogory">
+                            <option value="">E-vehicles</option>
+                            <option value="">Two wheelers</option>
+                            <option value="">Three wheelers</option>
+                            <option value="">Four wheelers</option>
+                        </select></a>
+                        <a href="#">Ac chargers</a>
+                        <a href="#">DC chargers</a>
+                        <a href="#">Home charger</a>
+                        <a href="#">Ev driver services</a>
+                        <a href="#">Charge point services</a>
+                    </div>
+                    <a href="#about">About us</a>
+                    <a href="#">Contact us</a>
+                </div>
+            </nav>
+            <div class="txt">
+                <h1 style="color: #fff; font-size: 5vw;">LET'S GET YOU</h1>
+                <h1 style="color: #ff4c4c;font-size: 4vw;">ON THE ROAD</h1>
+            </div>
+            <button id="shop">Shop Now <i class="fa fa-forward"></i></button>
+    
+        </div>
+    
+    </main>
+   
+    
+
+    <div class="about" id="about">
+        <div class="left">
+            <div class="info">
+                <h2>15+</h2>
+                <p>Years of experience</p>
+            </div>
+            <img src="resources/car-ch.jpg">
+        </div>
+        <div class="right">
+            <p>Who we are</p>
+            <h1>We are the future of Transportation!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nam sapiente eligendi impedit reprehenderit facilis voluptates aut est dolores</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse id, consectetur ad tempore distinctio voluptatem dicta autem voluptatibus, quisquam illo eveniet vitae placeat totam eligendi a perferendis? Vero, similique sapiente.</p>
+            <button>MORE ABOUT US</button>
+        </div>
+      </div>
+
+      <footer>
+        <div class="footer-info">
+            <div class="services-link">
+                <a href="#">Ac charger services</a>
+                <a href="#">DC charger services</a>
+                <a href="#">Home charger</a>
+                <a href="#">Ev driver services</a>
+                <a href="#">Charge point services</a>
+            </div>
+            <div class="support">
+                <a href="#">Help Centre</a>
+                <a href="#">Contact us</a>
+                <a href="#">FAQ</a>
+                <a href="#">Community</a>
+            </div>
+            <div class="company">
+                <a href="#">About us</a>
+                <a href="#">Leadership</a>
+                <a href="#">Careers</a>
+                <a href="#">New & Articles</a>
+                <a href="#">Legal Notice</a>
+            </div>
+            <div class="contact">
+                <a href="#">About us</a>
+                <a href="#">Leadership</a>
+                <a href="#">Careers</a>
+                <a href="#">New & Articles</a>
+                <a href="#">Legal Notice</a>
+            </div>
+        </div>
+        <div class="footer-logo">
+            <img src="resources/logo.png">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus quia, dignissimos, ut odio, cupiditate sapiente ad odit error ipsum blanditiis officiis dolores id. Excepturi illo natus atque eius ipsa architecto?</p>
+        </div>
+        <p id="cpy">Copyright&copy; 2024. All rights reserved to evconnect.in</p>
+      </footer>
+    
+
+
+      <script src="app.js"></script>
+</body>
+
+</html>
